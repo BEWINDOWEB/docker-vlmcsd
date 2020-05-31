@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  vlmcsd:
+    image: bewindoweb/vlmcsd:11.13.0
+    restart: always
+    ports:
+      - "1688:1688"
